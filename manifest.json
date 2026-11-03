@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Better Jira",
   "short_name": "Better Jira",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Open users profile and tickets from Jira directly in Betler and Bookie. Author: Daniel Oliveira",
 
   "icons": {

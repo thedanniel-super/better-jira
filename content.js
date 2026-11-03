@@ -184,7 +184,7 @@ const SHORT_ID_REGEX = /\b[A-Z0-9]{4}-[A-Z0-9]{6}\b/g;
 
 function acceptTextNode(node) {
     // Rejeita nós que já foram processados
-    if (node.parentNode && node.parentNode.classList.contains("processed-by-ext")) {
+    if (node.parentNode && node.parentNode.closest(".processed-by-ext")) {
         return NodeFilter.FILTER_REJECT;
     }
     // Rejeita nós dentro de links
