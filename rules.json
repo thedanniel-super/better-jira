@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "regexSubstitution": "https://axilis.atlassian.net/browse/\\1"
+      }
+    },
+    "condition": {
+      "regexFilter": "^https://axilis\\.atlassian\\.net/servicedesk/customer/portal/\\d+/([A-Z][A-Z0-9_]*-\\d+)",
+      "resourceTypes": ["main_frame"]
+    }
+  }
+]
